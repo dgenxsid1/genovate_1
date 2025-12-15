@@ -1,0 +1,6 @@
+
+property_id,address,city,state,zip_code,property_type,year_built,square_footage
+101,440 N Wabash Ave,Chicago,IL,60611,Office,1985,120000
+102,123 Main St,San Francisco,CA,94105,Retail,2005,15000
+103,789 Tech Row,Austin,TX,78701,Office,2018,250000
+104,555 Industrial Way,Dallas,TX,75247,Industrial,1999,500000

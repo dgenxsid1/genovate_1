@@ -1,0 +1,10 @@
+
+tenant_id,property_id,tenant_name,leased_sqft,lease_end_date
+301,101,Smith & Jones Law,25000,2026-12-31
+302,101,Capital Investments LLC,40000,2028-05-31
+303,101,Data Corp,37000,2025-08-31
+304,102,Global Coffee Chain,5000,2030-01-31
+305,102,Boutique Clothing,10000,2027-07-31
+306,103,Innovate Inc,150000,2032-11-30
+307,103,Cloud Solutions,100000,2029-06-30
+308,104,Logistics R Us,500000,2028-09-30

@@ -1,0 +1,7 @@
+
+comp_id,city,state,zip_code,property_type,sale_price,sale_date,square_footage
+401,Chicago,IL,60606,Office,30000000,2023-03-15,150000
+402,Chicago,IL,60654,Office,22000000,2022-11-01,110000
+403,San Francisco,CA,94105,Retail,6500000,2023-01-20,18000
+404,Austin,TX,78701,Office,85000000,2023-02-28,220000
+405,Dallas,TX,75247,Industrial,25000000,2022-10-10,550000

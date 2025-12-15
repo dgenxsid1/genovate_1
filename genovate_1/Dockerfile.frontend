@@ -1,0 +1,19 @@
+
+# Use an official Nginx runtime as a parent image
+FROM nginx:alpine
+
+# Copy the static assets from the project root to the Nginx html directory
+COPY ./index.html /usr/share/nginx/html/
+COPY ./index.tsx /usr/share/nginx/html/
+COPY ./App.tsx /usr/share/nginx/html/
+COPY ./types.ts /usr/share/nginx/html/
+COPY ./sample-data.txt /usr/share/nginx/html/
+COPY ./components /usr/share/nginx/html/components
+COPY ./hooks /usr/share/nginx/html/hooks
+COPY ./services /usr/share/nginx/html/services
+
+# Expose port 80
+EXPOSE 80
+
+# The default Nginx command will start the server
+CMD ["nginx", "-g", "daemon off;"]
